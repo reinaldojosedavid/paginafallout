@@ -1,0 +1,189 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#container{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#header{
+    width: 100%;
+    height: 60%;
+    display: table;
+    text-align:center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    line-height: 200px;
+    background-image: url(https://img.freepik.com/free-photo/war-conflict-landscape-with-soldiers-fighting_23-2149766327.jpg?w=996&t=st=1686327011~exp=1686327611~hmac=b7ea26a017df76ba83dbf46e9921ba9202c49d5c2ee6b45052fbb27b08b6c481);
+    background-size: 100% 110%;
+    background-repeat: no-repeat;
+}
+
+
+#nav{
+    background-color: rgb(79, 112, 156);
+    width: 100%;
+    
+}
+
+#nav ul{
+    display: flex;
+    
+    justify-content: center;
+}
+
+#nav ul li{
+    list-style: none;
+   
+}
+
+#nav ul li a{
+    text-decoration: none;
+    padding: 20px 25px 20px 25px;
+    display: table;
+    color: black;
+}
+
+#nav ul li a:hover{
+    background-color: rgb(155, 171, 184);
+    color:black;
+}
+
+
+#index h2, #fallout3 h2, #jugabilidad h2, #escenario h2, #historia h2, #desarrollo h2, #recepcion h2{
+    text-align: justify;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+    margin-left: 3%;
+}
+
+#index h3, #fallout3 h3, #jugabilidad h3, #escenario h3, #historia h3, #desarrollo h3, #recepcion h3{
+    color: rgb(79, 112, 156);
+    margin-left: 3%;
+}
+
+
+#index p, #fallout3 p, #jugabilidad p, #escenario p, #historia p, #desarrollo p, #recepcion p{
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+}
+
+.texto-justificado{
+    text-align: justify;
+}
+
+hr{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    background-color: rgb(79, 112, 156);
+    height: 2px;
+}
+
+.texto-flotante{
+    float: left;
+}
+
+.imagen1{
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 27%;
+    height: 190px;
+}
+
+.imagen2{
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 30%;
+    height: 220px;
+}
+
+.imagen3{
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 30%;
+    height: 220px;
+}
+
+.imagen4{
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 40%;
+    height: 250px;
+}
+
+.imagen5{
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    height: 250px;
+}
+
+.imagen6{
+    margin-right: 35px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    width: 22%;
+    height: 190px;
+}
+
+#arriba{
+    background-color: rgb(79, 112, 156);
+    color: black;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 40px;
+    right: 1px;
+    position: fixed;
+    bottom: 170px;
+    border-radius: 100%;
+}
+
+#arriba a{
+    text-decoration: none;
+    color: black;
+    font-size: 200%;
+}
+
+#arriba:hover{
+    background-color: rgb(155, 171, 184);
+    color: black;
+}
+
+#arriba a:hover{
+    color: black;
+}
+
+#footer{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(79, 112, 156);
+    color: black;
+    text-align: center;
+    padding-top: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
